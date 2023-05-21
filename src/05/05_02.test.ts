@@ -1,7 +1,9 @@
 import {CityType} from '../02/02_02';
 
 import {create} from 'domain';
-import {demolishHousesOnTheStreet, getBuildingsWithStaffCountGreaterThen} from './04_2';
+import {
+    getStreetsTitlesOfGovernmentBuildings, getStreetsTitlesOfHouses, HelloWithStreet
+} from './05_2';
 
 
 let city: CityType;
@@ -58,20 +60,29 @@ beforeEach(() => {
         citizensNumber: 1000000
     };
 });
-// 01. Дополните тип HouseType (добавьте порядковый id от 1 и по возрастанию)
-// 02. Создайте в том же файле ещё одну функцию, чтобы тесты прошли
-test('House should be destroyed', () => {
-    demolishHousesOnTheStreet(city, 'Happy street');
+// 01. создайте в том же файле ещё одну функцию, чтобы тесты прошли
+test('list of streets titles of government buildings', ()=> {
+    let streetsNames = getStreetsTitlesOfGovernmentBuildings(city.governmentBuildings);
 
-    expect(city.houses.length).toBe(1);
-    expect(city.houses[0].id).toBe(1);
+    expect(streetsNames.length).toBe(2);
+    expect(streetsNames[0]).toBe("Central Str");
+    expect(streetsNames[1]).toBe("South Str");
+})
 
-});
+//02. создайте в том же файле ещё одну функцию, чтобы тесты прошли
+test('list of streets titles', ()=> {
+    let streetsNames = getStreetsTitlesOfHouses(city.houses);
 
-// 03. Массив строений, где работают больше 500 людей
-test('buildings with correct staff count', () => {
-    let buildings = getBuildingsWithStaffCountGreaterThen(city.governmentBuildings, 500);
+    expect(streetsNames.length).toBe(3);
+    expect(streetsNames[0]).toBe("White street");
+    expect(streetsNames[1]).toBe("Happy street");
+    expect(streetsNames[2]).toBe("Happy street");
+})
 
-    expect(buildings.length).toBe(1);
-    expect(buildings[0].type).toBe('FIRE-STATION');
-});
+test("create greeting messages ",()=>{
+    let greetingMessages = HelloWithStreet(city.houses)
+    expect(greetingMessages.length).toBe(3);
+    expect(greetingMessages[0]).toBe("Hello from White street");
+    expect(greetingMessages[1]).toBe("Hello from Happy street");
+    expect(greetingMessages[2]).toBe("Hello from Happy street");
+    })
