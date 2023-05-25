@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/02/02.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/02/02.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/02/02_02.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02/02.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/02/02.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02/02.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/02/02.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src",
+    "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src/02",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -60,11 +62,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\02" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\01-hello-tests" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\05" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\04" />
-      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\03" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
