@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/03/03.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03/03.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03/03_02.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/03/03_02.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02/02.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/02/02.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/02/02_02.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/02/02_02.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2Pg6XIyZrDIrfDVZmQXxhdopNuy" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src/03",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/programing_2.0/native_js_with_dimych/my-app/node_modules/react-scripts",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "ts.external.directory.path": "D:\\programing_2.0\\native_js_with_dimych\\my-app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\03" />
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\02" />
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\01-hello-tests" />
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\05" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="splitting into should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+      <node-interpreter value="project" />
+      <node-options value="" />
+      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
+      <working-dir value="$PROJECT_DIR$" />
+      <envs />
+      <scope-kind value="TEST" />
+      <test-file value="$PROJECT_DIR$/src/01-hello-tests/01.test.ts" />
+      <test-names>
+        <test-name value="splitting into should be correct" />
+      </test-names>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Jest.splitting into should be correct" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="" />
+      <created>1683866418123</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683866418123</updated>
+      <workItem from="1683866420901" duration="9931000" />
+      <workItem from="1684661854987" duration="10540000" />
+      <workItem from="1684940739314" duration="79000" />
+      <workItem from="1684940826875" duration="1811000" />
+      <workItem from="1684992398646" duration="4595000" />
+      <workItem from="1685026604929" duration="800000" />
+      <workItem from="1685077858158" duration="5795000" />
+    </task>
+    <task id="LOCAL-00001" summary="finished lesson with function">
+      <created>1683877758385</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1683877758385</updated>
+    </task>
+    <task id="LOCAL-00002" summary="finished lesson with filter">
+      <created>1684667474572</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684667474572</updated>
+    </task>
+    <task id="LOCAL-00003" summary="finished lesson with map">
+      <created>1684683155289</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684683155289</updated>
+    </task>
+    <task id="LOCAL-00004" summary="finished lesson 1 about test">
+      <created>1685026648906</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685026648906</updated>
+    </task>
+    <task id="LOCAL-00005" summary="finished lesson 2 about object">
+      <created>1685032735463</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685032735463</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="finished lesson with function" />
+    <MESSAGE value="finished lesson with filter" />
+    <MESSAGE value="finished lesson with map" />
+    <MESSAGE value="finished lesson 1 about test" />
+    <MESSAGE value="finished lesson 2 about object" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson 2 about object" />
+  </component>
+</project>

@@ -1,27 +1,33 @@
 import {CityType} from '../02/02_02';
-import {addMoneyToBudget, createMessage, repairHouse, toFireStaff, toHireStaff} from './03.test';
+import {addMoneyToBudget, createMessage, repairHouse, toFireStaff, toHireStaff} from './03';
 import {create} from 'domain';
 
 
 let city: CityType;
 
+
 beforeEach(() => {
     city = {
         title: 'New York',
-        houses: [{
-            buildedAt: 2012,
-            repaired: false,
-            address: {
-                number: 100,
-                street: {title: 'White street'}
-            }
-        },
+        houses: [
+            {
+                buildedAt: 2012,
+                repaired: false,
+                address: {
+                    number: 100,
+                    street: {
+                        title: 'White street'
+                    }
+                }
+            },
             {
                 buildedAt: 2008,
                 repaired: false,
                 address: {
                     number: 100,
-                    street: {title: 'Happy street'}
+                    street: {
+                        title: 'Happy street'
+                    }
                 }
             },
             {
@@ -29,10 +35,11 @@ beforeEach(() => {
                 repaired: false,
                 address: {
                     number: 101,
-                    street: {title: 'Happy street'}
+                    street: {
+                        title: 'Happy street'
+                    }
                 }
-            },
-        ],
+            }],
         governmentBuildings: [{
             type: 'HOSPITAL',
             budget: 200000,
@@ -42,6 +49,7 @@ beforeEach(() => {
                     title: 'Central Str'
                 }
             }
+
         }, {
             type: 'FIRE-STATION',
             budget: 500000,
@@ -84,9 +92,9 @@ test('Staff should be reduced', () => {
 // 05. Создайте в том же файле еще одну функцию, чтобы тесты прошли
 test('Staff should be increased', () => {
     toHireStaff(city.governmentBuildings[0], 20);
-
     expect(city.governmentBuildings[0].staffCount).toBe(220);
 });
-test('Greeting message should be correct for city', () => {
-    expect(createMessage(city)).toBe("Hello New "+city.title+" I want yo be happy. All "+ city.citizensNumber +" men" );
+test('Greeting message should be correct for city ', () => {
+   const message=createMessage(city)
+    expect(message).toBe("Hello New York citizens I want you be happy.All 1000000 men");
 });

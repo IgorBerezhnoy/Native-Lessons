@@ -19,7 +19,7 @@ type AddressType = {
 type TitleType = {
     title: string
 }
-export type GovernmentBuildings ={
+type GovernmentBuildings ={
     type: string,
     budget: number,
     staffCount: number,
