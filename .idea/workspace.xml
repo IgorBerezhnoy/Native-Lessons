@@ -5,12 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/04/04.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04/04.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04/04_02.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/04/04_02.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/05/05.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/05/05_02.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/05/05_02.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/02/02_02.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/02/02_02.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +48,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src/04",
+    "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -64,8 +62,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\04" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\04" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\03" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\02" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\01-hello-tests" />
@@ -109,7 +107,7 @@
       <workItem from="1684992398646" duration="4595000" />
       <workItem from="1685026604929" duration="800000" />
       <workItem from="1685077858158" duration="5795000" />
-      <workItem from="1685527646676" duration="4597000" />
+      <workItem from="1685527646676" duration="9745000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -153,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685084661557</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finished lesson number 4. Lesson about filter">
+      <created>1685533246826</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1685533246826</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +183,7 @@
     <MESSAGE value="finished lesson 1 about test" />
     <MESSAGE value="finished lesson 2 about object" />
     <MESSAGE value="merge branch" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge branch" />
+    <MESSAGE value="finished lesson number 4. Lesson about filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson number 4. Lesson about filter" />
   </component>
 </project>
