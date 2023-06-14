@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/07/05_2.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/07/Destructuring.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/08/08_01.test.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/08/08_01.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/06/05.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/07/07.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/06/05_02.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/07/05_02.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/06/05_02.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/07/05_02.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/07/05_02.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/08/05_02.test.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/07/05_02.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/08/05_02.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/07/05_2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/08/05_2.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/07/07.test.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +114,8 @@
       <workItem from="1686127163832" duration="6784000" />
       <workItem from="1686159407406" duration="1809000" />
       <workItem from="1686161260009" duration="1817000" />
-      <workItem from="1686288360216" duration="1529000" />
+      <workItem from="1686288360216" duration="1551000" />
+      <workItem from="1686740566730" duration="3110000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -157,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686137045435</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finished lesson 7">
+      <created>1686290767622</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686290767622</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +191,8 @@
     <MESSAGE value="finished lesson 1 about test" />
     <MESSAGE value="finished lesson 2 about object" />
     <MESSAGE value="finished lesson 6 about CallBack" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lesson 6 about CallBack" />
+    <MESSAGE value="finished lesson 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson 7" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/my_app$splitting_into_should_be_correct.info" NAME="splitting into should be correct Coverage Results" MODIFIED="1686159809304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
