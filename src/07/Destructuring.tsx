@@ -1,34 +1,33 @@
-import React from 'react';
-import {AddressType, LessonsType} from './07.test';
+import React, {useState} from 'react';
 
-type ManType = {
+;
+export type ManType = {
     name: string
     age: number
-    lessons: Array<LessonsType>
-    address: AddressType
+    lessons: Array<{ title: string }>
+    address: {
+        street: {
+            title: string
+        }
+    }
 }
 type PropsType = {
     title: string
     man: ManType
-    food:Array<string>
+    user:string
+    food:string[]
     car:{model:string}
 }
-function useDimychState(message:string){
-    return [message,function (){}]
-}
+export const ManComponent: React.FC<PropsType> = ({title,man,...props}) => {
+const [message, setMessage]=  useState<string>("hello")
 
-export const Destructuring: React.FC<PropsType> = (props) => {
-    const {title} = props;
-    const {name} = props.man;
-    return (
+
+    return (<div>
+
+        <h1>{title}</h1>
+        <hr/>
         <div>
-            <h1>{title}</h1>
-            <hr/>
-            <div>
-                {props.car.model}
-                {name}
-            </div>
+            {man.name}
         </div>
-    );
+    </div>);
 };
-

@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/08/08_01.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/08/08_01.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/07/Destructuring.test.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/07/05_02.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/08/05_02.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/07/05_02.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/08/05_02.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/07/05_2.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/08/05_2.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/07/07.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/07/Destructuring.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/07/Destructuring.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +47,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/src&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/src/07&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -65,11 +61,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\07" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\03" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\02" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\01-hello-tests" />
-      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\05" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
@@ -115,7 +111,10 @@
       <workItem from="1686159407406" duration="1809000" />
       <workItem from="1686161260009" duration="1817000" />
       <workItem from="1686288360216" duration="1551000" />
-      <workItem from="1686740566730" duration="3110000" />
+      <workItem from="1686740566730" duration="3248000" />
+      <workItem from="1687164566447" duration="609000" />
+      <workItem from="1687351513976" duration="637000" />
+      <workItem from="1687411687028" duration="4142000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686290767622</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="finished lesson 8 Ассоциативный масив">
+      <created>1686743989705</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686743989705</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -192,7 +198,8 @@
     <MESSAGE value="finished lesson 2 about object" />
     <MESSAGE value="finished lesson 6 about CallBack" />
     <MESSAGE value="finished lesson 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lesson 7" />
+    <MESSAGE value="finished lesson 8 Ассоциативный масив" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson 8 Ассоциативный масив" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/my_app$splitting_into_should_be_correct.info" NAME="splitting into should be correct Coverage Results" MODIFIED="1686159809304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
