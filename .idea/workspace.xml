@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/10/10_01.test.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/10/10_01.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class/class.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/09/05_02.ts" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +117,11 @@
       <workItem from="1687437202328" duration="26000" />
       <workItem from="1687791986899" duration="3340000" />
       <workItem from="1688021675854" duration="5153000" />
-      <workItem from="1688120271610" duration="12988000" />
+      <workItem from="1688120271610" duration="15402000" />
+      <workItem from="1690386073637" duration="164000" />
+      <workItem from="1691312637994" duration="1189000" />
+      <workItem from="1691329827781" duration="2524000" />
+      <workItem from="1693658508792" duration="2074000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -191,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687803032265</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="finished lesson 10 very hard">
+      <created>1688133667441</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1688133667441</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +228,20 @@
     <MESSAGE value="finished lesson 8 Ассоциативный масив" />
     <MESSAGE value="finished lesson 7" />
     <MESSAGE value="finished lesson 9" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lesson 9" />
+    <MESSAGE value="finished lesson 10 very hard" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson 10 very hard" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/class/class.ts</url>
+          <line>25</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/my_app$splitting_into_should_be_correct.info" NAME="splitting into should be correct Coverage Results" MODIFIED="1686159809304" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="JestJavaScriptTestRunnerCoverage" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
