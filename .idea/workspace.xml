@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/class/class.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Promises/Promises.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -121,7 +121,7 @@
       <workItem from="1690386073637" duration="164000" />
       <workItem from="1691312637994" duration="1189000" />
       <workItem from="1691329827781" duration="2524000" />
-      <workItem from="1693658508792" duration="2074000" />
+      <workItem from="1693658508792" duration="5724000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -200,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1688133667441</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="finished class">
+      <created>1693665774306</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1693665774306</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +236,8 @@
     <MESSAGE value="finished lesson 7" />
     <MESSAGE value="finished lesson 9" />
     <MESSAGE value="finished lesson 10 very hard" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lesson 10 very hard" />
+    <MESSAGE value="finished class" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
