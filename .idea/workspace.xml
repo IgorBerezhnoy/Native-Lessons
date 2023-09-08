@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Promises/Promises.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Promises/Promises2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Promises/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -39,32 +42,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/node_modules/react-scripts&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\programing_2.0\\native_js_with_dimych\\my-app\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src/Promises",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/programing_2.0/native_js_with_dimych/my-app/node_modules/react-scripts",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "ts.external.directory.path": "D:\\programing_2.0\\native_js_with_dimych\\my-app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\Promises" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\07" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\03" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\02" />
-      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\01-hello-tests" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
@@ -121,7 +125,8 @@
       <workItem from="1690386073637" duration="164000" />
       <workItem from="1691312637994" duration="1189000" />
       <workItem from="1691329827781" duration="2524000" />
-      <workItem from="1693658508792" duration="5724000" />
+      <workItem from="1693658508792" duration="5770000" />
+      <workItem from="1694161912921" duration="7159000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -207,7 +212,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693665774306</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="finished promises chart 1">
+      <created>1693736535616</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1693736535616</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +249,8 @@
     <MESSAGE value="finished lesson 9" />
     <MESSAGE value="finished lesson 10 very hard" />
     <MESSAGE value="finished class" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished class" />
+    <MESSAGE value="finished promises chart 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished promises chart 1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -245,7 +258,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/class/class.ts</url>
           <line>25</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>
