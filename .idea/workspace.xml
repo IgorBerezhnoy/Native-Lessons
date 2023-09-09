@@ -5,10 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Promises/Promises2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Promises/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Promises/Promises3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Promises/Promises3/api-15.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Promises/Promises3/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Promises/Promises3/axios.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Promises/Promises3/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Promises/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Promises/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +129,7 @@
       <workItem from="1691312637994" duration="1189000" />
       <workItem from="1691329827781" duration="2524000" />
       <workItem from="1693658508792" duration="5770000" />
-      <workItem from="1694161912921" duration="7159000" />
+      <workItem from="1694161912921" duration="21143000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -219,7 +222,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693736535616</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="finished promises chart 2">
+      <created>1694173030552</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1694173030552</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,7 +260,8 @@
     <MESSAGE value="finished lesson 10 very hard" />
     <MESSAGE value="finished class" />
     <MESSAGE value="finished promises chart 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished promises chart 1" />
+    <MESSAGE value="finished promises chart 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished promises chart 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -259,6 +270,12 @@
           <url>file://$PROJECT_DIR$/src/class/class.ts</url>
           <line>25</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/Promises/Promises3/api.js</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

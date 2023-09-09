@@ -1,0 +1,158 @@
+<script src="axios.js"></script>
+<script src="api.js"></script>
+<script>
+
+
+    const asyncAwait = async () => {
+        try {
+            let vacanciesM = await api.getVacanciesCountFromMicrosoft();
+            console.log(vacanciesM);
+            let vacanciesG = await api.getVacanciesCountFromGoogle();
+            console.log(vacanciesG);
+            let vacanciesK = await api.sendStudentsCountToItKamasutra(vacanciesM + vacanciesG);
+            console.log(vacanciesK);
+        }catch (e){
+            console.warn(e)
+        }
+    };
+    asyncAwait()
+    // const asyncAwait = async () => {
+    //     let vacanciesM = await api.getVacanciesCountFromMicrosoft();
+    //     console.log(vacanciesM);
+    //     let vacanciesG = await api.getVacanciesCountFromGoogle();
+    //     console.log(vacanciesG);
+    //     let vacanciesK = await api.sendStudentsCountToItKamasutra(vacanciesM + vacanciesG);
+    //     console.log(vacanciesK);
+    // };
+    // asyncAwait()
+    // api.getVacanciesCountFromMicrosoft()
+    //     .then(data => {
+    //         console.log(data);
+    //         return data;
+    //     })
+    //     .then((d1) => {
+    //         return api.getVacanciesCountFromGoogle()
+    //             .then(data => {
+    //                 console.log(data);
+    //                 return d1 + data;
+    //             })
+    //             .then((data) => {
+    //                 return api.sendStudentsCountToItKamasutra(data);
+    //             })
+    //             .then(data => {
+    //                 console.log(data);
+    //             });
+    //     });
+
+
+
+
+
+    // let p1 = api.getVacanciesCountFromMicrosoft()
+    //     .then(data => {
+    //         console.log(data);
+    //         return data;
+    //     });
+    //
+    // let p2 = api.getVacanciesCountFromGoogle()
+    //     .then(data => {
+    //         console.log(data);
+    //         return data;
+    //     });
+    //
+    // Promise.all([p1, p2])
+    //     .then((arr) => {
+    //        return  api.sendStudentsCountToItKamasutra(arr[0] + arr[1]);
+    //     })
+    //     .then(data => {
+    //         console.log(data);
+    //     });
+
+
+
+
+
+    // api.getVacanciesCountFromMicrosoft()
+    //     .then((data)=>console.log(data.data))
+
+    //    const doAfter = (num) => {
+    //        return new Promise((resolve,reject) => {
+    //            setTimeout(() => {
+    //
+    //                resolve();
+    //            }, num * 1000);
+    //        });
+    //
+    //
+    //    };
+    // const getRandomAfter=(num)=>{
+    //     return new Promise((resolve,reject) => {
+    //         setTimeout(() => {
+    //
+    //             resolve(Math.random());
+    //         }, num * 1000);
+    //     });
+    // }
+
+    // getRandomAfter(4).then( number => console.log(`я получил ${number} спустя 4 секунды`))
+
+    // let promises = [getRandomAfter(1),getRandomAfter(2), getRandomAfter(3)];
+    // let commonPromise = Promise.all(promises);
+    // commonPromise.then( (arr) => {
+    //     console.log(arr[0])
+    //     console.log(arr[1])
+    //     console.log(arr[2])
+    // как вывести здесь все 3 числа?? гуглим Promise.all
+    // } );
+    //
+    // let pr1 = doAfter(4); // один промис
+    // let pr2 = doAfter(7); // второй промис
+    //
+    // pr1.then( () => console.log("pr1 resolved") ); // индивидуально подписываемся на каждый
+    // pr2.then( () => console.log("pr2 resolved") );
+    //
+    // let aggregatedPromise = Promise.all([pr1, pr2]); // получаем общий промис
+    //
+    // aggregatedPromise.then( () => console.log("pr1 and pr2 resolved"));
+    //     let promise3 = doAfter(3);
+    //     promise3.catch( () => console.log('я сработал через 3 секунд') );
+    //     promise3.then( () => console.log('и я тоже следом сработал через 3 секунд') );
+    //     promise3.then( () => console.log('и я') );
+    //    doAfter(5).then(() => console.log('я сработал через 5 секунд'));
+    //    doAfter(3).then(() => console.log('а я сработал через 3 секунд'));
+    //    doAfter(10).then(() => console.log('я сработал через 10 секунд'));
+    //
+
+    // let myPromise = new Promise((resolve) => {
+    //     resolve();
+    //     console.log(1);
+    //     console.log(2);
+    //     console.log(3);
+    // });
+
+
+    // let myPromise1 = new Promise((resolve) => {
+    //     resolve(Math.random());
+    // });
+    //
+    //
+    // // ниже по коду мы можем подписаться, на промис, чтобы он (промис) вызвал нашу функцию, когда он (промис) зарезолвится. Для этого передаём в метод then колбэк-функцию)
+    // // myPromise.then(() => {
+    // //     console.log('myPromise зарезолвился, и я узнал об этом');
+    // // });
+    // myPromise1.then((num) => {
+    //     console.log('myPromise зарезолвился, и я узнал об этом' + num);
+    // });
+    // myPromise1.then((num) => {
+    //     console.log('myPromise111 зарезолвился, и я узнал об этом' + num);
+    // });
+
+
+    // let myPromise1 = new Promise((resolve) => {
+    //     setTimeout(() => {
+    //         alert('m1111yPromise зарезолвился, и я узнал об этом');
+    //         resolve();
+    //     }, 2000);
+    // });
+    //
+</script>
