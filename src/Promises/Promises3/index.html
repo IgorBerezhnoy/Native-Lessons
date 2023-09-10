@@ -2,20 +2,25 @@
 <script src="api.js"></script>
 <script>
 
+    console.log(1)
+    let pr= new Promise((resolve,reject)=>{
 
-    const asyncAwait = async () => {
-        try {
-            let vacanciesM = await api.getVacanciesCountFromMicrosoft();
-            console.log(vacanciesM);
-            let vacanciesG = await api.getVacanciesCountFromGoogle();
-            console.log(vacanciesG);
-            let vacanciesK = await api.sendStudentsCountToItKamasutra(vacanciesM + vacanciesG);
-            console.log(vacanciesK);
-        }catch (e){
-            console.warn(e)
-        }
-    };
-    asyncAwait()
+    })
+
+
+//    const asyncAwait = async () => {
+//        try {
+//            let vacanciesM = await api.getVacanciesCountFromMicrosoft();
+//            console.log(vacanciesM);
+//            let vacanciesG = await api.getVacanciesCountFromGoogle();
+//            console.log(vacanciesG);
+//            let vacanciesK = await api.sendStudentsCountToItKamasutra(vacanciesM + vacanciesG);
+//            console.log(vacanciesK);
+//        }catch (e){
+//            console.warn(e)
+//        }
+//    };
+//    asyncAwait()
     // const asyncAwait = async () => {
     //     let vacanciesM = await api.getVacanciesCountFromMicrosoft();
     //     console.log(vacanciesM);
