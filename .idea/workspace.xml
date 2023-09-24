@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="finished promises chart 3">
-      <change afterPath="$PROJECT_DIR$/src/proto/proto.js" afterDir="false" />
+    <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algoritm/algorithm.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Promises/Promises3/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/Promises/Promises3/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +18,7 @@
       <list>
         <option value="TypeScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -73,7 +73,7 @@
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Node.js.algorithm.js">
     <configuration name="splitting into should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -87,8 +87,12 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="algorithm.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/algoritm/algorithm.js" working-dir="$PROJECT_DIR$/src/algoritm">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.algorithm.js" />
         <item itemvalue="Jest.splitting into should be correct" />
       </list>
     </recent_temporary>
@@ -127,7 +131,9 @@
       <workItem from="1693658508792" duration="5770000" />
       <workItem from="1694161912921" duration="24394000" />
       <workItem from="1694284027309" duration="931000" />
-      <workItem from="1694363238876" duration="1564000" />
+      <workItem from="1694363238876" duration="1594000" />
+      <workItem from="1695479455719" duration="703000" />
+      <workItem from="1695569466646" duration="1650000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -234,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694262115656</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="finished proto">
+      <created>1694373116359</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1694373116359</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,7 +280,8 @@
     <MESSAGE value="finished promises chart 1" />
     <MESSAGE value="finished promises chart 2" />
     <MESSAGE value="finished promises chart 3" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished promises chart 3" />
+    <MESSAGE value="finished proto" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished proto" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
