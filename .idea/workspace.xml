@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algoritm/algorithm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/this/this.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +133,11 @@
       <workItem from="1694284027309" duration="931000" />
       <workItem from="1694363238876" duration="1594000" />
       <workItem from="1695479455719" duration="703000" />
-      <workItem from="1695569466646" duration="1650000" />
+      <workItem from="1695569466646" duration="1728000" />
+      <workItem from="1695734832593" duration="12000" />
+      <workItem from="1695735395960" duration="102000" />
+      <workItem from="1696874050512" duration="2195000" />
+      <workItem from="1696916732582" duration="2472000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -247,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694373116359</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="finished lesson about algorithm">
+      <created>1695572840818</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1695572840818</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -281,7 +292,8 @@
     <MESSAGE value="finished promises chart 2" />
     <MESSAGE value="finished promises chart 3" />
     <MESSAGE value="finished proto" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished proto" />
+    <MESSAGE value="finished lesson about algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about algorithm" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
