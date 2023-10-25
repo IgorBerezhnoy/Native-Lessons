@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/this/this.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/associative array/associative array.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +32,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2Pg6XIyZrDIrfDVZmQXxhdopNuy" />
   <component name="ProjectLevelVcsManager">
@@ -73,7 +76,7 @@
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.algorithm.js">
+  <component name="RunManager" selected="Node.js.associative array.js">
     <configuration name="splitting into should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -87,11 +90,19 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="sort.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/my-app/src/bablbe sort/sort.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
     <configuration name="algorithm.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/algoritm/algorithm.js" working-dir="$PROJECT_DIR$/src/algoritm">
+      <method v="2" />
+    </configuration>
+    <configuration name="associative array.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/associative array/associative array.js" working-dir="$PROJECT_DIR$/src/associative array">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Node.js.associative array.js" />
+        <item itemvalue="JavaScript Debug.sort.html" />
         <item itemvalue="Node.js.algorithm.js" />
         <item itemvalue="Jest.splitting into should be correct" />
       </list>
@@ -137,7 +148,11 @@
       <workItem from="1695734832593" duration="12000" />
       <workItem from="1695735395960" duration="102000" />
       <workItem from="1696874050512" duration="2195000" />
-      <workItem from="1696916732582" duration="2472000" />
+      <workItem from="1696916732582" duration="2502000" />
+      <workItem from="1697258531853" duration="1243000" />
+      <workItem from="1697520409293" duration="6754000" />
+      <workItem from="1698211099939" duration="1998000" />
+      <workItem from="1698214163516" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -258,7 +273,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695572840818</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="finished lesson about this">
+      <created>1696919606400</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1696919606400</updated>
+    </task>
+    <task id="LOCAL-00019" summary="finished lesson about throttle_debounce">
+      <created>1697533539091</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1697533539091</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,7 +322,9 @@
     <MESSAGE value="finished promises chart 3" />
     <MESSAGE value="finished proto" />
     <MESSAGE value="finished lesson about algorithm" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about algorithm" />
+    <MESSAGE value="finished lesson about this" />
+    <MESSAGE value="finished lesson about throttle_debounce" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about throttle_debounce" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
