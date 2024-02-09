@@ -48,35 +48,35 @@
     }
     mouseMove=throttle(mouseMove,3000)
 setInterval(mouseMove,1000)
-    // let input = document.getElementsByTagName('input');
-    // let onChange = (input) => {
-    //     console.log(input.target.value);
-    // };
-    //
-    //
-    // const debounce = (fn, ms) => {
-    //     let timeout;
-    //     return function () {
-    //         const fnCall = () => {
-    //             fn.apply(this, arguments);
-    //         };
-    //         clearTimeout(timeout);
-    //         timeout = setTimeout(fnCall, ms);
-    //     };
-    // };
-    // // let changeDeb=)
-    // input[0].addEventListener('keyup',debounce(onChange, 1000));
-    // window.addEventListener('resize', debounce(() => {
-    //
-    // }));
-    //
-    // const f = throttling(console.log, 1000);
-    // f(1);
-    // f(2);
-    // setTimeout(() => f(3), 100);
-    // setTimeout(() => f(4), 500);
-    // setTimeout(() => f(5), 1100);
-    //
+    let input = document.getElementsByTagName('input');
+    let onChange = (input) => {
+        console.log(input.target.value);
+    };
+
+
+    const debounce = (fn, ms) => {
+        let timeout;
+        return function () {
+            const fnCall = () => {
+                fn.apply(this, arguments);
+            };
+            clearTimeout(timeout);
+            timeout = setTimeout(fnCall, ms);
+        };
+    };
+    // let changeDeb=)
+    input[0].addEventListener('keyup',debounce(onChange, 1000));
+    window.addEventListener('resize', debounce(() => {
+
+    }));
+
+    const f = throttling(console.log, 1000);
+    f(1);
+    f(2);
+    setTimeout(() => f(3), 100);
+    setTimeout(() => f(4), 500);
+    setTimeout(() => f(5), 1100);
+
     // function debounce(callback, delay) {
     //     let timer;
     //     return function (...args) {
