@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Computer Science/01/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/carrying/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/typeConversion/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/throttle_debounce/throttle_debounce.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/throttle_debounce/throttle_debounce.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,30 +51,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Node.js.associative array.js.executor": "Run",
-    "Node.js.index.js.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "D:/programing_2.0/native_js_with_dimych/my-app/node_modules/react-scripts",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "ts.external.directory.path": "D:\\programing_2.0\\native_js_with_dimych\\my-app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.sort.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.associative array.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\programing_2.0\\native_js_with_dimych\\my-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
@@ -113,8 +112,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Node.js.associative array.js" />
         <item itemvalue="JavaScript Debug.sort.html" />
+        <item itemvalue="Node.js.associative array.js" />
         <item itemvalue="Node.js.algorithm.js" />
         <item itemvalue="Jest.splitting into should be correct" />
       </list>
@@ -170,7 +169,11 @@
       <workItem from="1701273878965" duration="800000" />
       <workItem from="1705569705469" duration="1516000" />
       <workItem from="1705764177422" duration="1794000" />
-      <workItem from="1707444445295" duration="5417000" />
+      <workItem from="1707444445295" duration="5509000" />
+      <workItem from="1707753265744" duration="1728000" />
+      <workItem from="1708139718262" duration="3983000" />
+      <workItem from="1708182041242" duration="79000" />
+      <workItem from="1708182150607" duration="2210000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -320,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699429912123</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="finished lesson about curry">
+      <option name="closed" value="true" />
+      <created>1707456674045</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1707456674045</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +369,9 @@
     <MESSAGE value="finished lesson about this" />
     <MESSAGE value="finished lesson about throttle_debounce" />
     <MESSAGE value="finished lesson about associative array" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about associative array" />
+    <MESSAGE value="finished lesson about carr" />
+    <MESSAGE value="finished lesson about curry" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about curry" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
