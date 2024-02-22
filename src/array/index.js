@@ -82,7 +82,82 @@ let logArr = [];
 
 
 // //20 every
-logArr = arr.every(el => typeof el === 'number');
+// logArr = arr.every(el => typeof el === 'number');
+//
+// console.log(logArr);
+// console.log(arr);
+// function* strGenerator() {
+//   yield 'H';
+//   yield 'e';
+//   yield 'l';
+//   yield 'l';
+//   yield 'o';
+// }
+// const str = strGenerator();
+// console.log(str.next())
+// console.log(str.next())
+// console.log(str.next())
+// console.log(str.next())
+// console.log(str.next())
+// console.log(str.next())
 
-console.log(logArr);
-console.log(arr);
+
+// function* numberGen(n = 10) {
+//   for (let i = 0; i < n; i++) {
+//     yield i;
+//   }
+// }
+//
+// const str = numberGen();
+// console.log(str.next());
+// for (let i = 0; i <11 ; i++) {
+// console.log(str.next());
+//
+// }
+
+//
+// const iterator = {
+//   gen(n = 10) {
+//     let i = 0;
+//     return {
+//       next() {
+//         if (i < n) {
+//           return {value: i++, done: false};
+//         } else {
+//           return {value: undefined, done: true};
+//         }
+//       }
+//     };
+//   }
+// };
+// let gen = iterator.gen(2);
+// console.log(gen.next());
+// console.log(gen.next());
+// console.log(gen.next());
+// console.log(gen.next());
+
+
+//Iterators
+//-----
+// let names = ['Bob', 'Alex', 'John'];
+// for (let name of names) {
+//   console.log(name);
+// }
+
+// let generateNumber = {
+//   start: 1,
+//   end: 1
+// };
+// generateNumber[Symbol.iterator] = function () {
+//   let current = this.start;
+//   let last = this.end;
+//   return {
+//     next() {
+//       if (current <= last) {
+//         return {value: current++, done: false};
+//       } else {
+//         return {value: undefined, done: true};
+//       }
+//     }
+//   };
+// }
