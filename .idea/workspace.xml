@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/typeConversion/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Map_Set/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/function/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/function/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/object/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/var_let_const/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/typeConversion/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/typeConversion/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,38 +57,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.sort.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.associative array.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/src&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/node_modules/react-scripts&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\programing_2.0\\native_js_with_dimych\\my-app\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.sort.html.executor": "Run",
+    "Node.js.associative array.js.executor": "Run",
+    "Node.js.index.js.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src/object",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/programing_2.0/native_js_with_dimych/my-app/node_modules/react-scripts",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.editor",
+    "ts.external.directory.path": "D:\\programing_2.0\\native_js_with_dimych\\my-app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\object" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\Promises" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\07" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\03" />
-      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\02" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
@@ -173,7 +180,11 @@
       <workItem from="1707753265744" duration="1728000" />
       <workItem from="1708139718262" duration="3983000" />
       <workItem from="1708182041242" duration="79000" />
-      <workItem from="1708182150607" duration="2210000" />
+      <workItem from="1708182150607" duration="3912000" />
+      <workItem from="1708264636967" duration="8616000" />
+      <workItem from="1708431513786" duration="2282000" />
+      <workItem from="1708445157814" duration="3623000" />
+      <workItem from="1708497654891" duration="7770000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -331,7 +342,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707456674045</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="finished lesson about Converting types to JS">
+      <option name="closed" value="true" />
+      <created>1708184825499</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1708184825499</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -371,7 +390,8 @@
     <MESSAGE value="finished lesson about associative array" />
     <MESSAGE value="finished lesson about carr" />
     <MESSAGE value="finished lesson about curry" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about curry" />
+    <MESSAGE value="finished lesson about Converting types to JS" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about Converting types to JS" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
