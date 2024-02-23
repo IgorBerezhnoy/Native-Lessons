@@ -1,5 +1,20 @@
-const arr = [1, 3, 4, 5, 4];
-let logArr = [];
+const nums = [1, 3, 4, 5, 4, 44, 55, 6, 7, 2, 3, 45, 5, 6, 6, 634, 2];
+const numsNew = [1,3,43,5564,564577,8, 3, 4, 5, 4, 44, 55, 6, 7, 2, 3, 45, 5, 6, 6, 634, 2];
+const cars = ['BMW', 'Mercedes', 'Audi'];
+const arrBoleans = [true, 0, '', null, undefined, false, true];
+console.log(nums[Math.floor(Math.random()*nums.length)])
+// let newCars=[{name:"BMW", color:"red"},{name:"Mercedes", color:"green"},{name:"Audi", color:"blue"}]
+// let namesCars=newCars.map(el=>el.name)
+// console.log(namesCars)
+// console.log([... new Set(nums)].filter(el=>numsNew.includes(el)))
+// console.log(nums.splice(0,9,"aaaa"))
+// console.log(nums)
+
+// console.log(Array.from(new Set(nums)));
+// console.log([...new Set(nums)]);
+// console.log(arrBoleans.filter(el => el));
+// console.log(nums.reduce((acc, item) =>acc+item,0 ))
+// let logArr = [];
 // //1)forEach
 // arr.forEach((el,i,arr) => console.log(el,i,arr));
 

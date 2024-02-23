@@ -1,30 +1,42 @@
-const person = Object.create({}, {
-  name: {
-    value: 'Dimych',
-    enumerable: true,
-    writable: true,
-    configurable: true
+//
+// const person =Object.seal( {
+//   name: 'Dimych',
+//   age: 32,
+//   isMarried: true
+// });
+// console.log(person)
+// person.age= 33
+// person.name= "33"
+// console.log(person)
 
-  },
-  birthYear: {
-    value: 1993,
-    enumerable: false,
-    writable: false,
-    configurable: false
-  },
-  age: {
-    // value: new Date().getFullYear() - 1993,
-    enumerable: true,
-    get() {
-      return new Date().getFullYear() - this.birthYear;
-    },
-    set() {
-    },
-  }, greetings() {
-    console.log('hello');
-  }
 
-});
+// const person = Object.create({}, {
+//   name: {
+//     value: 'Dimych',
+//     enumerable: true,
+//     writable: true,
+//     configurable: true
+//
+//   },
+//   birthYear: {
+//     value: 1993,
+//     enumerable: false,
+//     writable: false,
+//     configurable: false
+//   },
+//   age: {
+//     // value: new Date().getFullYear() - 1993,
+//     enumerable: true,
+//     get() {
+//       return new Date().getFullYear() - this.birthYear;
+//     },
+//     set() {
+//     },
+//   }, greetings() {
+//     console.log('hello');
+//   }
+//
+// });
 
 // const person = {
 //   name: 'Dimych',
@@ -32,10 +44,10 @@ const person = Object.create({}, {
 //   isMarried: true
 // };
 // delete person.name;
-for (let key in person) {
-  console.log('ker', key, person[key]);
-}
-console.log(person);
+// for (let key in person) {
+//   console.log('ker', key, person[key]);
+// }
+// console.log(person);
 // let obj1 = {
 //   name: 'Demych',
 // };
