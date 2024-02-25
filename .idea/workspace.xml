@@ -6,9 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
       <change afterPath="$PROJECT_DIR$/src/Map_Set/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/this/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/this/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/array/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/array/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/object/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/object/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -91,7 +91,7 @@
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.sort.html">
+  <component name="RunManager">
     <configuration name="splitting into should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -182,6 +182,7 @@
       <workItem from="1708445157814" duration="3623000" />
       <workItem from="1708497654891" duration="23176000" />
       <workItem from="1708609832918" duration="4661000" />
+      <workItem from="1708842906943" duration="4011000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -379,7 +380,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708608061154</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="finished little lessons about array and object">
+      <option name="closed" value="true" />
+      <created>1708670198482</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1708670198482</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -398,7 +407,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finished lesson with function" />
     <MESSAGE value="finished lesson with filter" />
     <MESSAGE value="finished lesson with map" />
     <MESSAGE value="finished lesson 1 about test" />
@@ -423,7 +431,8 @@
     <MESSAGE value="finished lesson about function and object" />
     <MESSAGE value="finished lesson about generators" />
     <MESSAGE value="finished lesson about object" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about object" />
+    <MESSAGE value="finished little lessons about array and object" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished little lessons about array and object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
