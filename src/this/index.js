@@ -1,10 +1,57 @@
-const item = {
-  title: 'Phone',
-  logTitle() {
-    setTimeout(() => console.log(this.title), 1000);
-  }
+const sayHello = () => console.log(`Hi,I'm ${this.name}`);
+const person = {
+  name: 'Ivan',
+  sayHello: function () {
+    sayHello.call(this);
+  }, introduceMyself() {
+    console.log(`Hi,I'm ${this.name}`);
+  }, introduceMyself2: () => {
+    console.log(`Hi,I'm ${this.name}`);
+  },
 };
-item.logTitle();
+const anotherPerson = {name: 'Igor', ago: 23};
+sayHello(); //1...
+person.sayHello(); //2...
+person.introduceMyself(); //3...
+person.introduceMyself2(); //4...
+person.introduceMyself.apply(anotherPerson);//5...
+person.introduceMyself2.bind(anotherPerson)();//6...
+
+// function hello() {
+//   console.log('Hello', this);
+// }
+//
+// const lena = {
+//   name: 'Elena', age: 23
+// };
+// const person = {
+//   name: 'Vladilen', age: 25, sayHello: hello, sayHelloWindow: hello.bind(this), logInfo: function (job, phone) {
+//     console.group(`${this.name} info: `);
+//     console.log(`Name is ${this.name}`);
+//     console.log(`Age is ${this.age}`);
+//     console.log(`Job is ${job}`);
+//     console.log(`Phone is ${phone}`);
+//     console.groupEnd();
+//   }
+// };
+// person.logInfo.apply(lena, ['Frontend', '8-800-555-35-35']);
+//
+// const array = [1, 2, 3, 4, 5];
+// Array.prototype.multiple = function (num) {
+//   return this.map(el => el * num);
+// };
+//
+// console.log(array.multiple(2));
+// person.sayHello();
+// person.sayHelloWindow();
+
+// const item = {
+//   title: 'Phone',
+//   logTitle() {
+//     setTimeout(() => console.log(this.title), 1000);
+//   }
+// };
+// item.logTitle();
 //
 // const obj = {
 //   lastName: 'Ivanov',
