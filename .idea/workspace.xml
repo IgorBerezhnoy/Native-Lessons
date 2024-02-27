@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="finished little lesson about this">
-      <change afterPath="$PROJECT_DIR$/src/Map_Set/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map_Set/map.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map_Set/set.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map_Set/weakmap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Map_Set/weakset.js" afterDir="false" />
+    <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algoritms/1_linear_search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoritms/2_binary_search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoritms/3_selection_sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoritms/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/class/indes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/prototype/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/this/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/this/index.js" afterDir="false" />
     </list>
@@ -56,42 +58,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "DefaultHtmlFileTemplate": "HTML File",
-    "JavaScript Debug.index.html.executor": "Run",
-    "JavaScript Debug.sort.html.executor": "Run",
-    "Node.js.associative array.js.executor": "Run",
-    "Node.js.index.js.executor": "Run",
-    "Node.js.set.js.executor": "Run",
-    "Node.js.weakmap.js.executor": "Run",
-    "Node.js.weakset.js.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src/Map_Set",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs.jest.jest_package": "D:/programing_2.0/native_js_with_dimych/my-app/node_modules/react-scripts",
-    "nodejs_package_manager_path": "yarn",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "ts.external.directory.path": "D:\\programing_2.0\\native_js_with_dimych\\my-app\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.sort.html.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.1_linear_search.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.2_binary_search.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.associative array.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.set.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.weakmap.js.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.weakset.js.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/src/algoritms&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs.jest.jest_package&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/node_modules/react-scripts&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\programing_2.0\\native_js_with_dimych\\my-app\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\algoritms" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\Map_Set" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\object" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\Promises" />
-      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\07" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
@@ -190,7 +194,15 @@
       <workItem from="1708609832918" duration="4661000" />
       <workItem from="1708842906943" duration="12139000" />
       <workItem from="1708861313429" duration="7958000" />
-      <workItem from="1708931750574" duration="2199000" />
+      <workItem from="1708931750574" duration="4414000" />
+      <workItem from="1708938648120" duration="4472000" />
+      <workItem from="1709014228484" duration="1426000" />
+      <workItem from="1709015661810" duration="164000" />
+      <workItem from="1709015839762" duration="123000" />
+      <workItem from="1709015971880" duration="30000" />
+      <workItem from="1709016011484" duration="182000" />
+      <workItem from="1709016205802" duration="497000" />
+      <workItem from="1709016722191" duration="9754000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -404,7 +416,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708847742595</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="finished lesson about Map and Set">
+      <option name="closed" value="true" />
+      <created>1708936636738</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1708936636738</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -423,7 +443,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finished lesson with map" />
     <MESSAGE value="finished lesson 1 about test" />
     <MESSAGE value="finished lesson 2 about object" />
     <MESSAGE value="finished lesson 6 about CallBack" />
@@ -448,7 +467,8 @@
     <MESSAGE value="finished lesson about object" />
     <MESSAGE value="finished little lessons about array and object" />
     <MESSAGE value="finished little lesson about this" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished little lesson about this" />
+    <MESSAGE value="finished lesson about Map and Set" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about Map and Set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

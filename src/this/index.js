@@ -1,21 +1,54 @@
-const sayHello = () => console.log(`Hi,I'm ${this.name}`);
-const person = {
-  name: 'Ivan',
-  sayHello: function () {
-    sayHello.call(this);
-  }, introduceMyself() {
-    console.log(`Hi,I'm ${this.name}`);
-  }, introduceMyself2: () => {
-    console.log(`Hi,I'm ${this.name}`);
-  },
+function myFunction() {
+  console.log(this);
+}
+
+const item = {
+  title: 'Phone',
 };
-const anotherPerson = {name: 'Igor', ago: 23};
-sayHello(); //1...
-person.sayHello(); //2...
-person.introduceMyself(); //3...
-person.introduceMyself2(); //4...
-person.introduceMyself.apply(anotherPerson);//5...
-person.introduceMyself2.bind(anotherPerson)();//6...
+myFunction.call(item)
+
+//   const item={
+//   title:"Phone",
+//   fullPrice: 100,
+//   calculatePrice(discount=0) {
+//     console.log(this.fullPrice-discount/100*this.fullPrice);
+//   }
+// }
+// item.calculatePrice(10);
+// item.calculatePrice(20);
+// // function myFunction() {
+//   console.log(this);
+// }
+//
+// const item = {
+//   myFunction,
+//   title: 'Phone'
+// };
+// item.myFunction();
+// exports.default = {
+//   title: 'Phone'
+// };
+//
+// console.log(this);
+
+// const sayHello = () => console.log(`Hi,I'm ${this.name}`);
+// const person = {
+//   name: 'Ivan',
+//   sayHello: function () {
+//     sayHello.call(this);
+//   }, introduceMyself() {
+//     console.log(`Hi,I'm ${this.name}`);
+//   }, introduceMyself2: () => {
+//     console.log(`Hi,I'm ${this.name}`);
+//   },
+// };
+// const anotherPerson = {name: 'Igor', ago: 23};
+// sayHello(); //1...
+// person.sayHello(); //2...
+// person.introduceMyself(); //3...
+// person.introduceMyself2(); //4...
+// person.introduceMyself.apply(anotherPerson);//5...
+// person.introduceMyself2.bind(anotherPerson)();//6...
 
 // function hello() {
 //   console.log('Hello', this);
