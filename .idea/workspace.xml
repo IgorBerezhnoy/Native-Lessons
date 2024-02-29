@@ -10,10 +10,13 @@
       <change afterPath="$PROJECT_DIR$/src/algoritms/3_selection_sort.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/algoritms/index.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/class/indes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/prototype/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/1_S.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/2_O.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/3_L.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/4_I.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/solid/5_D.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/this/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/this/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/prototype/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,21 +27,44 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="one_more_time" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
+    <option name="recentBranches">
+      <RecentBranches>
+        <option name="branchesForRepo">
+          <list>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="solid" />
+                    <option name="lastUsedInstant" value="1709132164" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="main" />
+                    <option name="lastUsedInstant" value="1709132163" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
+          </list>
+        </option>
+      </RecentBranches>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -58,44 +84,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.sort.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.1_linear_search.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.2_binary_search.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.associative array.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.set.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.weakmap.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.weakset.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/src/algoritms&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/node_modules/react-scripts&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\programing_2.0\\native_js_with_dimych\\my-app\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.sort.html.executor": "Run",
+    "Node.js.1_S.js.executor": "Run",
+    "Node.js.1_linear_search.js.executor": "Run",
+    "Node.js.2_O.js.executor": "Run",
+    "Node.js.2_binary_search.js.executor": "Run",
+    "Node.js.3_L.js.executor": "Run",
+    "Node.js.4_I.js.executor": "Run",
+    "Node.js.5_D.js.executor": "Run",
+    "Node.js.associative array.js.executor": "Run",
+    "Node.js.index.js.executor": "Run",
+    "Node.js.set.js.executor": "Run",
+    "Node.js.weakmap.js.executor": "Run",
+    "Node.js.weakset.js.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "solid",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src/solid",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/programing_2.0/native_js_with_dimych/my-app/node_modules/react-scripts",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "D:\\programing_2.0\\native_js_with_dimych\\my-app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\solid" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\algoritms" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\Map_Set" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\object" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
-      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\Promises" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
@@ -202,7 +233,10 @@
       <workItem from="1709015971880" duration="30000" />
       <workItem from="1709016011484" duration="182000" />
       <workItem from="1709016205802" duration="497000" />
-      <workItem from="1709016722191" duration="9754000" />
+      <workItem from="1709016722191" duration="12532000" />
+      <workItem from="1709100643486" duration="1426000" />
+      <workItem from="1709122060569" duration="16000" />
+      <workItem from="1709132116278" duration="10680000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -424,7 +458,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708936636738</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="finished lesson about prototype">
+      <option name="closed" value="true" />
+      <created>1709041973936</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1709041973936</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -443,7 +485,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finished lesson 1 about test" />
     <MESSAGE value="finished lesson 2 about object" />
     <MESSAGE value="finished lesson 6 about CallBack" />
     <MESSAGE value="finished lesson 8 Ассоциативный масив" />
@@ -468,7 +509,8 @@
     <MESSAGE value="finished little lessons about array and object" />
     <MESSAGE value="finished little lesson about this" />
     <MESSAGE value="finished lesson about Map and Set" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about Map and Set" />
+    <MESSAGE value="finished lesson about prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about prototype" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
