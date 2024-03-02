@@ -12,7 +12,7 @@ let b = {
 b.text = 'aa';
 let c = {
   fontFamily: 'Verdana',
-  __proto__: b
+  __proto__ : b
 };
 
 console.log(a);
