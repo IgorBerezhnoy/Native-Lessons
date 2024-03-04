@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/class/indes.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/class/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/eventLoop/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/prototype/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/prototype/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +17,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="TypeScript File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -42,12 +40,8 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="class" />
-                    <option name="lastUsedInstant" value="1709205220" />
-                  </RecentBranch>
-                  <RecentBranch>
-                    <option name="branchName" value="solid" />
-                    <option name="lastUsedInstant" value="1709132164" />
+                    <option name="branchName" value="eventLoop" />
+                    <option name="lastUsedInstant" value="1709360365" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
@@ -103,7 +97,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;class&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;eventLoop&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/src/solid&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -153,10 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.sort.html" />
         <item itemvalue="Node.js.associative array.js" />
         <item itemvalue="Node.js.algorithm.js" />
         <item itemvalue="Jest.splitting into should be correct" />
+        <item itemvalue="JavaScript Debug.sort.html" />
+        <item itemvalue="JavaScript Debug.sort.html" />
       </list>
     </recent_temporary>
   </component>
@@ -235,6 +230,8 @@
       <workItem from="1709122060569" duration="16000" />
       <workItem from="1709132116278" duration="10680000" />
       <workItem from="1709209261710" duration="6332000" />
+      <workItem from="1709360503835" duration="5434000" />
+      <workItem from="1709435954359" duration="11195000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -483,7 +480,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finished lesson 2 about object" />
     <MESSAGE value="finished lesson 6 about CallBack" />
     <MESSAGE value="finished lesson 8 Ассоциативный масив" />
     <MESSAGE value="finished lesson 7" />
@@ -508,7 +504,8 @@
     <MESSAGE value="finished little lesson about this" />
     <MESSAGE value="finished lesson about Map and Set" />
     <MESSAGE value="finished lesson about prototype" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about prototype" />
+    <MESSAGE value="finished lesson about class" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
