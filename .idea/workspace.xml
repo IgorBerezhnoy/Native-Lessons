@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/eventLoop/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js-workout-6-coding-tasks-main/code-finish.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js-workout-6-coding-tasks-main/code-start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js-workout-6-coding-tasks-main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/js-workout-6-coding-tasks-main/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tasks/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +44,12 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="eventLoop" />
-                    <option name="lastUsedInstant" value="1709360365" />
+                    <option name="branchName" value="tasks" />
+                    <option name="lastUsedInstant" value="1709531394" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1709132163" />
+                    <option name="lastUsedInstant" value="1709531212" />
                   </RecentBranch>
                 </list>
               </option>
@@ -74,56 +78,57 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.sort.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.1_S.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.1_linear_search.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.2_O.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.2_binary_search.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.3_L.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.4_I.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.5_D.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.associative array.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.indes.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.index.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.set.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.weakmap.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.weakset.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;eventLoop&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/src/solid&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;D:/programing_2.0/native_js_with_dimych/my-app/node_modules/react-scripts&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;yarn&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\programing_2.0\\native_js_with_dimych\\my-app\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.sort.html.executor": "Run",
+    "Node.js.1_S.js.executor": "Run",
+    "Node.js.1_linear_search.js.executor": "Run",
+    "Node.js.2_O.js.executor": "Run",
+    "Node.js.2_binary_search.js.executor": "Run",
+    "Node.js.3_L.js.executor": "Run",
+    "Node.js.4_I.js.executor": "Run",
+    "Node.js.5_D.js.executor": "Run",
+    "Node.js.associative array.js.executor": "Run",
+    "Node.js.code-start.js.executor": "Run",
+    "Node.js.indes.js.executor": "Run",
+    "Node.js.index.js.executor": "Run",
+    "Node.js.set.js.executor": "Run",
+    "Node.js.weakmap.js.executor": "Run",
+    "Node.js.weakset.js.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "tasks",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/programing_2.0/native_js_with_dimych/my-app/node_modules/react-scripts",
+    "nodejs_package_manager_path": "yarn",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "ts.external.directory.path": "D:\\programing_2.0\\native_js_with_dimych\\my-app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\solid" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\algoritms" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\Map_Set" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\object" />
-      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.sort.html">
+  <component name="RunManager">
     <configuration name="splitting into should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -151,7 +156,7 @@
         <item itemvalue="Node.js.algorithm.js" />
         <item itemvalue="Jest.splitting into should be correct" />
         <item itemvalue="JavaScript Debug.sort.html" />
-        <item itemvalue="JavaScript Debug.sort.html" />
+        <item itemvalue="Node.js.associative array.js" />
       </list>
     </recent_temporary>
   </component>
@@ -232,6 +237,7 @@
       <workItem from="1709209261710" duration="6332000" />
       <workItem from="1709360503835" duration="5434000" />
       <workItem from="1709435954359" duration="11195000" />
+      <workItem from="1709531193520" duration="10682000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -461,7 +467,23 @@
       <option name="project" value="LOCAL" />
       <updated>1709041973936</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="added idea into gitignore">
+      <option name="closed" value="true" />
+      <created>1709530830234</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1709530830234</updated>
+    </task>
+    <task id="LOCAL-00033" summary="test">
+      <option name="closed" value="true" />
+      <created>1709531017050</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1709531017050</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,9 +502,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finished lesson 6 about CallBack" />
-    <MESSAGE value="finished lesson 8 Ассоциативный масив" />
-    <MESSAGE value="finished lesson 7" />
     <MESSAGE value="finished lesson 9" />
     <MESSAGE value="finished lesson 10 very hard" />
     <MESSAGE value="finished class" />
@@ -505,7 +524,10 @@
     <MESSAGE value="finished lesson about Map and Set" />
     <MESSAGE value="finished lesson about prototype" />
     <MESSAGE value="finished lesson about class" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about class" />
+    <MESSAGE value="added idea into gitignore" />
+    <MESSAGE value="t" />
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
