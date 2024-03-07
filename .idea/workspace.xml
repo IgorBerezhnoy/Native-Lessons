@@ -4,12 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="test">
-      <change afterPath="$PROJECT_DIR$/src/js-dom/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js-dom/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/js-dom/js/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/polifil/index.js" afterDir="false" />
+    <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/domPractice-main/dom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domPractice-main/domComplete.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domPractice-main/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/domPractice-main/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/js-dom/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js-dom/js/script.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,6 +102,7 @@
     "Node.js.5_D.js.executor": "Run",
     "Node.js.associative array.js.executor": "Run",
     "Node.js.code-start.js.executor": "Run",
+    "Node.js.dom.js.executor": "Run",
     "Node.js.indes.js.executor": "Run",
     "Node.js.index.js.executor": "Run",
     "Node.js.set.js.executor": "Run",
@@ -135,7 +137,7 @@
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.sort.html">
+  <component name="RunManager">
     <configuration name="splitting into should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -246,7 +248,7 @@
       <workItem from="1709435954359" duration="11195000" />
       <workItem from="1709531193520" duration="10682000" />
       <workItem from="1709563506394" duration="2546000" />
-      <workItem from="1709705462746" duration="4588000" />
+      <workItem from="1709705462746" duration="10503000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -492,7 +494,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709531017050</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="finished lesson about js-dom">
+      <option name="closed" value="true" />
+      <created>1709697015688</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1709697015688</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -511,7 +521,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finished lesson 9" />
     <MESSAGE value="finished lesson 10 very hard" />
     <MESSAGE value="finished class" />
     <MESSAGE value="finished promises chart 1" />
@@ -536,7 +545,8 @@
     <MESSAGE value="added idea into gitignore" />
     <MESSAGE value="t" />
     <MESSAGE value="test" />
-    <option name="LAST_COMMIT_MESSAGE" value="test" />
+    <MESSAGE value="finished lesson about js-dom" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about js-dom" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

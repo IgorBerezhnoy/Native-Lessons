@@ -1,10 +1,14 @@
-const body=document.body
-const prev=body.previousElementSibling
-const next=body.nextElementSibling
-const parent=body.parentElement
-console.log(prev);
-console.log(next);
-console.log(parent);
+
+
+
+
+// const body=document.body
+// const prev=body.previousElementSibling
+// const next=body.nextElementSibling
+// const parent=body.parentElement
+// console.log(prev);
+// console.log(next);
+// console.log(parent);
 
 // const yellow = document.querySelectorAll('.yellow');
 // console.log(body.firstChild)
