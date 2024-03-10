@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/events/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/events/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/events/js/script.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pureFoo/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,12 +40,16 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="Dom_Events" />
-                    <option name="lastUsedInstant" value="1710042726" />
+                    <option name="branchName" value="PureFoo" />
+                    <option name="lastUsedInstant" value="1710060060" />
                   </RecentBranch>
                   <RecentBranch>
                     <option name="branchName" value="main" />
-                    <option name="lastUsedInstant" value="1710042694" />
+                    <option name="lastUsedInstant" value="1710060016" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="Dom_Events" />
+                    <option name="lastUsedInstant" value="1710042726" />
                   </RecentBranch>
                 </list>
               </option>
@@ -101,7 +103,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "Dom__Events",
+    "git-widget-placeholder": "PureFoo",
     "ignore.virus.scanning.warn.message": "true",
     "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src/events",
     "node.js.detected.package.eslint": "true",
@@ -127,7 +129,7 @@
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.sort.html">
+  <component name="RunManager">
     <configuration name="splitting into should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -155,7 +157,7 @@
         <item itemvalue="Node.js.algorithm.js" />
         <item itemvalue="Jest.splitting into should be correct" />
         <item itemvalue="JavaScript Debug.sort.html" />
-        <item itemvalue="JavaScript Debug.sort.html" />
+        <item itemvalue="Node.js.associative array.js" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +241,7 @@
       <workItem from="1709531193520" duration="10682000" />
       <workItem from="1709563506394" duration="2546000" />
       <workItem from="1709705462746" duration="10920000" />
-      <workItem from="1710041889703" duration="5136000" />
+      <workItem from="1710041889703" duration="7464000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -501,7 +503,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709793911514</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="finished lesson dom events">
+      <option name="closed" value="true" />
+      <created>1710059498772</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1710059498772</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -520,7 +530,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finished class" />
     <MESSAGE value="finished promises chart 1" />
     <MESSAGE value="finished promises chart 2" />
     <MESSAGE value="finished promises chart 3" />
@@ -545,7 +554,8 @@
     <MESSAGE value="test" />
     <MESSAGE value="finished lesson about js-dom" />
     <MESSAGE value="finished lesson #2 about js-dom" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lesson #2 about js-dom" />
+    <MESSAGE value="finished lesson dom events" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished lesson dom events" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
