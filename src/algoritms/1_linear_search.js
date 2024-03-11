@@ -1,14 +1,15 @@
 const array = [1, 4, 5, 8, 5, 1, 2, 7, 5, 2, 11];
 let count = 0;
 
-function linerSearch(array, element) {
+function linearSearch(array, value) {
+  count = 0;
   for (let i = 0; i < array.length; i++) {
     count++;
-    if (array[i] === element) {
+    if (array[i] === value) {
       return i;
     }
   }
-  return null;
+  return -1;
 }
-
-console.log(linerSearch(array, 5),{count});
+console.log(linearSearch(array,5),count)
+console.log(linearSearch(array,11),count)

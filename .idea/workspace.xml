@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pureFoo/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoritms/4_bubble_sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoritms/5_quick_sort.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoritms/6_recursion.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoritms/7_poisk_v_shirinu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algoritms/9_algoritm_dijkstra.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoritm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/algoritm/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoritms/1_linear_search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/algoritms/1_linear_search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoritms/2_binary_search.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/algoritms/2_binary_search.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algoritms/3_selection_sort.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/algoritms/3_selection_sort.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +33,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="PureFoo" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -90,8 +98,13 @@
     "Node.js.2_O.js.executor": "Run",
     "Node.js.2_binary_search.js.executor": "Run",
     "Node.js.3_L.js.executor": "Run",
+    "Node.js.3_selection_sort.js.executor": "Run",
     "Node.js.4_I.js.executor": "Run",
+    "Node.js.4_bubble_sort.js.executor": "Run",
     "Node.js.5_D.js.executor": "Run",
+    "Node.js.5_quick_sort.js.executor": "Run",
+    "Node.js.6_recursion.js.executor": "Run",
+    "Node.js.7_poisk_v_shirinu.js.executor": "Run",
     "Node.js.associative array.js.executor": "Run",
     "Node.js.code-start.js.executor": "Run",
     "Node.js.dom.js.executor": "Run",
@@ -103,9 +116,9 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "PureFoo",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src/events",
+    "last_opened_file_path": "D:/programing_2.0/native_js_with_dimych/my-app/src/algoritms",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -119,10 +132,10 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\algoritms" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\events" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\solid" />
-      <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\algoritms" />
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src\Map_Set" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
