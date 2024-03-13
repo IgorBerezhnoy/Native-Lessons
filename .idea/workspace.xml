@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/closure/index.js" afterDir="false" />
+    <list default="true" id="142446db-8ca6-4947-8a27-df4105c42929" name="Changes" comment="finished  little lessons about cl">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/this/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/this/index.js" afterDir="false" />
     </list>
@@ -135,7 +134,7 @@
       <recent name="D:\programing_2.0\native_js_with_dimych\my-app\src" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.sort.html">
+  <component name="RunManager">
     <configuration name="splitting into should be correct" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -250,6 +249,7 @@
       <workItem from="1710041889703" duration="7464000" />
       <workItem from="1710218325339" duration="666000" />
       <workItem from="1710219816957" duration="3722000" />
+      <workItem from="1710310253158" duration="5142000" />
     </task>
     <task id="LOCAL-00001" summary="finished lesson with function">
       <created>1683877758385</created>
@@ -527,7 +527,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710167067965</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="finished  little lessons about closure">
+      <option name="closed" value="true" />
+      <created>1710223942599</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1710223942599</updated>
+    </task>
+    <option name="localTasksCounter" value="39" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,8 +554,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finished promises chart 2" />
-    <MESSAGE value="finished promises chart 3" />
     <MESSAGE value="finished proto" />
     <MESSAGE value="finished lesson about algorithm" />
     <MESSAGE value="finished lesson about this" />
@@ -571,7 +577,9 @@
     <MESSAGE value="finished lesson #2 about js-dom" />
     <MESSAGE value="finished lesson dom events" />
     <MESSAGE value="finished lesson about algorithms" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished lesson about algorithms" />
+    <MESSAGE value="finished  little lessons about cl" />
+    <MESSAGE value="finished  little lessons about closure" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished  little lessons about closure" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

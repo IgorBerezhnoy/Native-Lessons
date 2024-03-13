@@ -1,11 +1,61 @@
-function myFunction() {
-  console.log(this);
-}
 
-const item = {
-  title: 'Phone',
-};
-myFunction.call(item)
+// const obj = {
+//   getThis() {
+//     console.log(this);
+//   },
+//   getThis2: () => {
+//     console.log(this);
+//   }
+// };
+//
+// for(let key in obj){
+//   obj[key]()
+// }
+
+
+// function calculateDiscount(age) {
+//   if (age > 60) {
+//     console.log(this.price / 2);
+//   } else { // this = window
+//     console.log(this.price);
+//   }
+// }
+//
+// const item = {
+//   price: 100,
+// };
+// calculateDiscount.call(item, 20);
+// let bindFoo = calculateDiscount.bind(item, 70);
+// function myFunction() {
+//   console.log(this);
+// }
+//
+// const item = {
+//   tittle: 'Phone',
+// };
+// myFunction.call(item);
+
+// const item = {
+//   calculatePrice(sale = 0) {
+//     console.log(this.fullPrice - (sale/ 100 * this.fullPrice ));
+//   },
+//   fullPrice: 100,
+//   title: 'Phone'
+// };
+// item.calculatePrice(20);
+
+// exports.default = {
+//   title: 'Phone'
+// }
+// console.log(this);
+// function myFunction() {
+//   console.log(this);
+// }
+//
+// const item = {
+//   title: 'Phone',
+// };
+// myFunction.call(item)
 
 //   const item={
 //   title:"Phone",
